@@ -11,6 +11,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/players" element={<PlayerSelectionForm />} />
+        <Route path="/" element={<PlayerSelectionForm />} />
         <Route path="/teams/:id" element={<TeamDisplay />} />
         <Route path="/teams" element={<TeamsList />} />
       </Routes>
